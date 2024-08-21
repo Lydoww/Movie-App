@@ -1,25 +1,21 @@
-# 🎬 CinéSearch - Application de recherche de films
+# 🎬 CinéSearch - Movie Search Application
 
-CinéSearch est une application React simple et élégante pour rechercher et filtrer des films. Les utilisateurs peuvent rechercher des films, les filtrer par popularité ou qualité (Top/Flop), les ajouter aux favoris et les gérer à partir d'une page dédiée. L'application utilise le `localStorage` pour conserver les favoris même après la fermeture du navigateur.
+CinéSearch is a simple and stylish React application for searching and filtering movies. Users can search for movies, filter by popularity or rating (Top/Flop), add movies to their favorites, and manage them from a dedicated page. The application uses `localStorage` to keep favorites even after the browser is closed.
 
-## 🚀 Fonctionnalités
+## 🚀 Features
 
-- 🔍 **Recherche de films** : Utilisez la barre de recherche pour trouver rapidement vos films préférés.
-- 🌟 **Filtrage Top/Flop** : Filtrez les films par note, en choisissant de n'afficher que les meilleurs (Top) ou les moins bien notés (Flop).
-- ❤️ **Gestion des Favoris** : Ajoutez des films à votre liste de favoris et gérez-les facilement depuis une page dédiée.
-- 💾 **Stockage local** : Les favoris sont stockés dans le `localStorage`, garantissant qu'ils persistent même après la fermeture du navigateur.
+- 🔍 **Movie Search**: Quickly find your favorite movies using the search bar.
+- 🌟 **Top/Flop Filtering**: Filter movies by rating, choosing to display only the top-rated (Top) or lower-rated (Flop) movies.
+- ❤️ **Favorites Management**: Add movies to your favorites list and easily manage them from a dedicated page.
+- 💾 **Local Storage**: Favorites are stored in `localStorage`, ensuring they persist even after closing the browser.
 
-## 🛠️ Installation
+## 🎨 Styling
 
-Assurez-vous d'avoir Node.js et npm installés sur votre machine. Ensuite, suivez ces étapes pour cloner et installer le projet :
+The application uses SASS for easy customization and maintainability of styles.
 
-```bash
-# Clonez le dépôt
-git clone https://github.com/votre-utilisateur/cinesearch.git
+## ⚙️ Usage
 
-# Accédez au répertoire du projet
-cd cinesearch
+You can try the live demo of the application on Netlify:
 
-# Installez les dépendances
-npm install
+[Live Demo on Netlify](https://your-netlify-url.com)
 
