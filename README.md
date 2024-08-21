@@ -18,5 +18,5 @@ Movie-App is a simple React application for searching and filtering movies. User
 
 You can try the live demo of the application on Netlify:
 
-[Live Demo on Netlify](https://your-netlify-url.com)
+[Live Demo on Netlify](https://react-sass-movie-app.netlify.app/))
 
