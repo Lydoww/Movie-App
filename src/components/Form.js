@@ -1,3 +1,4 @@
+/* eslint-disable consistent-return */
 import axios from "axios";
 import React, { useEffect, useState } from "react";
 import Card from "./Card";
@@ -32,11 +33,19 @@ const Form = () => {
           <input type="submit" value="Rechercher" />
         </form>
         <div className="btn-sort-container">
-          <div className="btn-sort" id="goodToBad" onClick={() => setSortGoodBad("goodToBad")}>
+          <div
+            className="btn-sort"
+            id="goodToBad"
+            onClick={() => setSortGoodBad("goodToBad")}
+          >
             Top
           </div>
 
-          <div className="btn-sort" id="badToGood" onClick={() => setSortGoodBad("badToGood")}>
+          <div
+            className="btn-sort"
+            id="badToGood"
+            onClick={() => setSortGoodBad("badToGood")}
+          >
             Flop
           </div>
         </div>
@@ -50,6 +59,7 @@ const Form = () => {
             } else if (sortGoodBad === "badToGood") {
               return a.vote_average - b.vote_average; // Tri du pire au meilleur
             }
+            return 0;
           })
           .map((movie) => (
             <Card movie={movie} key={movie.id} />
